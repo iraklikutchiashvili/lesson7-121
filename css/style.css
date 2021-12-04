@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@300&display=swap');
 /* header styles */
 .header-block {
     margin: 0 auto;
@@ -28,16 +29,19 @@
 .text {
     color: #FFFFFF;
     margin-left: 15px;
+    font-family: 'Open Sans', sans-ser
 }
 .maintitle {
     color: #534D4D;
     font-size: 40px;
+    font-family: 'Roboto', sans-serif;
 }
 .paragraph{
     color: #534D4D;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 60px;
+    font-family: 'Roboto', sans-serif;
 }
 .box1 {
     width: 300px;
@@ -60,14 +64,13 @@
 }
 /* section 2 */
 .big-block {
+    margin: 100px auto 200px auto;
     width: 1300px;
     height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
-    margin-bottom: 200px;
 }
 .text-block {
     width: 600px;
@@ -80,16 +83,19 @@
 .header {
     color: #3D37F1;
     font-size: 15px
+    font-family: 'Open Sans', sans-ser
 }
 .title {
     color: #5A5454;
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 15px;
+    font-family: 'Open Sans', sans-ser
 }
 .description {
     color: #747474;
     font-size: 13px;
+    font-family: 'Roboto', sans-serif;
 }
 .box {
     margin: 0 auto;
@@ -99,7 +105,6 @@
     flex-flow: row wrap;
     align-content: center;
     justify-content: space-between;
-    
 }
 
 .small-block {
@@ -121,11 +126,13 @@ h4 {
     color: #FFFFFF;
     font-size: 18px;
     margin-top: 15px;
+    font-family: 'Open Sans', sans-ser
 }
 p {
     color: #FFFFFF;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 .small-block:hover .button {
     color: #4B647E;
